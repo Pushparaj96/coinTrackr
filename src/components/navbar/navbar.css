@@ -1,0 +1,59 @@
+.Navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:25px 10%;
+    box-shadow:2px 2px 5px #3861FB;
+}
+.Navbar .logo{
+    max-width:209px;
+}
+.form-select{
+    cursor:pointer;
+    height:35px;
+}
+.form-select.no-outline:focus{
+    outline:none;
+    box-shadow: none;
+}
+.nav-right{
+    display: flex;
+    align-items:center;
+    gap:5px;
+}
+.currency-text{
+    margin:0;
+    font-size:18px;
+    padding-top:5px;
+    color:rgb(58, 56, 56);
+}
+
+@media(max-width:900px){
+    .Navbar{
+        padding:20px 8%;
+    }
+    .Navbar .logo{
+        max-width:180px;
+    }
+}
+@media(max-width:768px){
+    .Navbar{
+        padding:20px 5%;
+    }
+    .Navbar .logo{
+        max-width:165px;
+    }
+}
+@media(max-width:500px){
+    .nav-right{
+        display:flex;
+        flex-direction: column;
+        gap:2px;
+    }
+    .currency-text{
+        display: none;
+    }
+    .Navbar .logo{
+        max-width:150px;
+    }
+}
