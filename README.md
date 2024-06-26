@@ -1,8 +1,17 @@
 # coinTrackr
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+coinTrackr is a React-based web application designed to provide users with easy access to information about the top 50 cryptocurrencies based on market capitalization. It leverages the Coingecko API to fetch real-time data and allows users to search for specific cryptocurrencies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Top 50 Cryptocurrencies**: View a list of the top cryptocurrencies by market cap.
+- **Search Functionality**: Search for any cryptocurrency and view detailed information.
+- **Real-Time Updates**: Data is updated regularly using the Coingecko API.
+
+## Technologies Used
+
+- React
+- Coingecko API
+
