@@ -7,7 +7,7 @@ const CoinContextProvider =(props)=>{
     const [allCoin,setAllCoin] = useState([]);
     const [currency,setCurrency] = useState({
         name:"usd",
-        symbol:"$"
+        locale:"en-US"
     });
 
     const fetchAllCoin = async ()=>{
